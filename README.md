@@ -15,7 +15,7 @@
 
 ## ✨ Features
 
-🔥 **19 Powerful MCDM Methods** - From classical AHP to modern MABAC  
+🔥 **19 Powerful MCDM Methods** - Complete A-S implementation from AHP to DAS  
 ⚡ **Easy to Use** - Clean Python implementations with detailed examples  
 📊 **Comprehensive Analysis** - Multiple perspectives on the same problem  
 🎨 **Well Documented** - Mathematical formulations and real-world examples  
@@ -46,19 +46,37 @@ python examples/quick_start.py
 <details>
 <summary><b>🏛️ Classical Methods (Click to expand)</b></summary>
 
-### 🔹 AHP - Analytical Hierarchy Process
+### 🔹 A. AHP - Analytical Hierarchy Process
 > *The gold standard for hierarchical decision-making*
 - **Best for**: Complex hierarchical problems
 - **Strength**: Handles consistency checking
 - **Use case**: Strategic planning, resource allocation
 
-### 🔹 SAW - Simple Additive Weighting  
+### 🔹 B. SAW - Simple Additive Weighting  
 > *Intuitive and straightforward ranking*
 - **Best for**: Simple multi-criteria problems
 - **Strength**: Easy to understand and implement
 - **Use case**: Product selection, performance evaluation
 
-### 🔹 TOPSIS - Technique for Order Preference by Similarity
+### 🔹 C. Profile Matching
+> *Compare alternatives against ideal profiles*
+- **Best for**: Recruitment and selection processes
+- **Strength**: Direct profile comparison
+- **Use case**: HR selection, student admissions
+
+### 🔹 D. Entropy
+> *Objective weight calculation based on data diversity*
+- **Best for**: Eliminating subjective bias in weighting
+- **Strength**: Data-driven weight assignment
+- **Use case**: Objective performance measurement
+
+### 🔹 E. WP - Weighted Product
+> *Multiplicative approach to multi-criteria ranking*
+- **Best for**: Non-compensatory decision problems
+- **Strength**: Handles zero values effectively
+- **Use case**: Quality assessment, technical evaluation
+
+### 🔹 F. TOPSIS - Technique for Order Preference by Similarity to Ideal Solution
 > *Find the closest to ideal, farthest from worst*
 - **Best for**: Trade-off situations
 - **Strength**: Considers both positive and negative ideal solutions
@@ -69,40 +87,88 @@ python examples/quick_start.py
 <details>
 <summary><b>⚡ Modern Methods (Click to expand)</b></summary>
 
-### 🔸 VIKOR - Compromise Ranking
+### 🔸 G. MOORA - Multi-Objective Optimization by Ratio Analysis
+> *Optimize multiple objectives through ratio analysis*
+- **Best for**: Multi-objective optimization problems
+- **Strength**: Simple normalization and calculation
+- **Use case**: Manufacturing optimization, project selection
+
+### 🔸 H. ELECTRE - Elimination and Choice Expressing Reality
+> *Outranking approach for complex preferences*
+- **Best for**: Problems with conflicting preferences
+- **Strength**: Handles incomparability and veto thresholds
+- **Use case**: Environmental assessment, policy evaluation
+
+### 🔸 I. ORESTE - Organization, Rangement Et Synthese De Donnes Relationnelles
+> *Ordinal ranking without numerical weights*
+- **Best for**: Qualitative evaluation scenarios
+- **Strength**: Avoids numerical weight assignment
+- **Use case**: Qualitative assessments, expert evaluations
+
+### 🔸 J. SMART - Specific, Measurable, Achievable, Relevant, and Time-Bound
+> *Goal-oriented decision framework*
+- **Best for**: Strategic planning and goal setting
+- **Strength**: Structured criteria evaluation
+- **Use case**: Project management, strategic decisions
+
+### 🔸 K. VIKOR - VIšekriterijumsko KOmpromisno Rangiranje
 > *Focus on compromise solutions*
 - **Best for**: Conflicting criteria scenarios
 - **Strength**: Provides compromise solutions
 - **Use case**: Technology selection, policy making
 
-### 🔸 MABAC - Border Approximation Area Comparison
-> *Geometric approach to decision making*
-- **Best for**: Complex geometric relationships
-- **Strength**: Visual interpretation of results
-- **Use case**: Location selection, design optimization
-
-### 🔸 WASPAS - Weighted Aggregated Sum Product
-> *Hybrid approach combining SAW and WP*
-- **Best for**: Stability-critical decisions
-- **Strength**: More accurate and stable results
-- **Use case**: Construction projects, equipment selection
+### 🔸 L. ARAS - Additive Ratio Assessment
+> *Utility function approach with comparative analysis*
+- **Best for**: Complex utility evaluations
+- **Strength**: Integrates additive and comparative concepts
+- **Use case**: Investment analysis, technology assessment
 
 </details>
 
 <details>
-<summary><b>🎯 Specialized Methods (Click to expand)</b></summary>
+<summary><b>🎯 Advanced Methods (Click to expand)</b></summary>
 
-| Method | Full Name | Key Feature |
-|--------|-----------|-------------|
-| **MOORA** | Multi-Objective Optimization by Ratio Analysis | Ratio-based optimization |
-| **ELECTRE** | Elimination and Choice Expressing Reality | Outranking relationships |
-| **ORESTE** | Organization, Rangement Et Synthese | Ordinal ranking approach |
-| **ARAS** | Additive Ratio Assessment | Utility function based |
-| **MAUT** | Multi-Attribute Utility Theory | Handles uncertainty |
-| **COPRAS** | Complex Proportional Assessment | Beneficial vs non-beneficial criteria |
-| **MOOSRA** | Multi-Objective Optimization System | Multiple objectives optimization |
-| **PSI** | Preference Selection Index | No subjective weights needed |
-| **DAS** | Distance from Average Solution | Balanced solution approach |
+### 🔷 M. MAUT - Multi-Attribute Utility Theory
+> *Transform preferences into utility functions*
+- **Best for**: Decision-making under uncertainty
+- **Strength**: Handles risk and uncertainty effectively
+- **Use case**: Financial decisions, risk assessment
+
+### 🔷 N. COPRAS - Complex Proportional Assessment
+> *Proportional assessment of beneficial and non-beneficial criteria*
+- **Best for**: Complex proportional evaluations
+- **Strength**: Separates beneficial from non-beneficial criteria
+- **Use case**: Construction projects, facility location
+
+### 🔷 O. MABAC - Multi-Attributive Border Approximation Area Comparison
+> *Geometric approach using border approximation*
+- **Best for**: Complex geometric relationships
+- **Strength**: Visual interpretation through geometric analysis
+- **Use case**: Location selection, design optimization
+
+### 🔷 P. MOOSRA - Multi-Objective Optimization System for Ranking Alternatives
+> *System-based optimization for alternative ranking*
+- **Best for**: Complex system optimization
+- **Strength**: Comprehensive system-level analysis
+- **Use case**: System design, resource allocation
+
+### 🔷 Q. WASPAS - Weighted Aggregated Sum Product Assessment
+> *Hybrid approach combining SAW and WP methods*
+- **Best for**: Stability-critical decisions
+- **Strength**: More accurate and stable results
+- **Use case**: Construction projects, equipment selection
+
+### 🔷 R. PSI - Preference Selection Index
+> *Ranking without subjective weight assignment*
+- **Best for**: Objective decision-making scenarios
+- **Strength**: Eliminates subjective bias in weighting
+- **Use case**: Performance evaluation, benchmarking
+
+### 🔷 S. DAS - Distance from Average Solution
+> *Deviation-based ranking from average performance*
+- **Best for**: Balanced solution identification
+- **Strength**: Identifies most balanced alternatives
+- **Use case**: Portfolio selection, balanced scorecards
 
 </details>
 
@@ -113,10 +179,25 @@ python examples/quick_start.py
 ```
 📦 decision-support-system/
 ├── 🐍 methods/                 # Core MCDM implementations
-│   ├── ahp.py                 # Analytical Hierarchy Process
-│   ├── saw.py                 # Simple Additive Weighting
-│   ├── topsis.py              # TOPSIS implementation
-│   └── ...                    # Other 16 methods
+│   ├── ahp.py                 # A. Analytical Hierarchy Process
+│   ├── saw.py                 # B. Simple Additive Weighting
+│   ├── profile_matching.py    # C. Profile Matching
+│   ├── entropy.py             # D. Entropy
+│   ├── weighted_product.py    # E. Weighted Product
+│   ├── topsis.py              # F. TOPSIS
+│   ├── moora.py               # G. MOORA
+│   ├── electre.py             # H. ELECTRE
+│   ├── oreste.py              # I. ORESTE
+│   ├── smart.py               # J. SMART
+│   ├── vikor.py               # K. VIKOR
+│   ├── aras.py                # L. ARAS
+│   ├── maut.py                # M. MAUT
+│   ├── copras.py              # N. COPRAS
+│   ├── mabac.py               # O. MABAC
+│   ├── moosra.py              # P. MOOSRA
+│   ├── waspas.py              # Q. WASPAS
+│   ├── psi.py                 # R. PSI
+│   └── das.py                 # S. DAS
 ├── 📊 examples/               # Real-world examples
 │   ├── supplier_selection/    # Business case study
 │   ├── university_ranking/    # Education ranking
@@ -139,6 +220,8 @@ python examples/quick_start.py
 ```python
 from methods.topsis import TOPSIS
 from methods.ahp import AHP
+from methods.entropy import Entropy
+from methods.waspas import WASPAS
 import pandas as pd
 
 # Load your decision matrix
@@ -153,8 +236,20 @@ ahp = AHP()
 weights = ahp.calculate_weights(pairwise_matrix)
 ranking_ahp = topsis.rank(data, weights=weights)
 
+# Method 3: Using Entropy for objective weights
+entropy = Entropy()
+objective_weights = entropy.calculate_weights(data)
+ranking_entropy = topsis.rank(data, weights=objective_weights)
+
+# Method 4: Using WASPAS for stable results
+waspas = WASPAS()
+ranking_waspas = waspas.rank(data, weights=weights)
+
 print("📊 TOPSIS Ranking:", ranking_topsis)
-print("🏆 Best Supplier:", ranking_topsis[0])
+print("🏆 AHP-TOPSIS Ranking:", ranking_ahp)
+print("🎯 Entropy-TOPSIS Ranking:", ranking_entropy)
+print("⚡ WASPAS Ranking:", ranking_waspas)
+print("🥇 Best Supplier:", ranking_topsis[0])
 ```
 
 ### 🎓 Academic Case: University Ranking
@@ -162,21 +257,30 @@ print("🏆 Best Supplier:", ranking_topsis[0])
 ```python
 from methods.saw import SAW
 from methods.moora import MOORA
+from methods.vikor import VIKOR
+from methods.mabac import MABAC
+from methods.psi import PSI
 
-# Multiple methods comparison
+# Multiple methods comparison (A-S implementation)
 methods = {
-    'SAW': SAW(),
-    'MOORA': MOORA(),
-    'TOPSIS': TOPSIS()
+    'SAW (B)': SAW(),
+    'MOORA (G)': MOORA(),
+    'TOPSIS (F)': TOPSIS(),
+    'VIKOR (K)': VIKOR(),
+    'MABAC (O)': MABAC(),
+    'PSI (R)': PSI()  # No weights needed
 }
 
 results = {}
 for name, method in methods.items():
-    results[name] = method.rank(university_data, weights)
+    if 'PSI' in name:
+        results[name] = method.rank(university_data)  # PSI doesn't need weights
+    else:
+        results[name] = method.rank(university_data, weights)
 
 # Compare results across methods
 comparison_df = pd.DataFrame(results)
-print("📈 Method Comparison:")
+print("📈 A-S Method Comparison:")
 print(comparison_df)
 ```
 
@@ -214,13 +318,17 @@ graph TD
 
 ## 📊 Performance Benchmarks
 
-| Method | Processing Time* | Memory Usage | Scalability |
-|--------|-----------------|--------------|-------------|
-| SAW | 0.001s | Low | Excellent |
-| TOPSIS | 0.003s | Medium | Good |
-| AHP | 0.010s | Medium | Fair |
-| VIKOR | 0.005s | Medium | Good |
-| MABAC | 0.008s | High | Fair |
+| Method | Processing Time* | Memory Usage | Scalability | Letter Code |
+|--------|-----------------|--------------|-------------|-------------|
+| SAW | 0.001s | Low | Excellent | B |
+| TOPSIS | 0.003s | Medium | Good | F |
+| AHP | 0.010s | Medium | Fair | A |
+| VIKOR | 0.005s | Medium | Good | K |
+| MABAC | 0.008s | High | Fair | O |
+| PSI | 0.002s | Low | Excellent | R |
+| WASPAS | 0.004s | Medium | Good | Q |
+| Entropy | 0.001s | Low | Excellent | D |
+| MOORA | 0.002s | Low | Good | G |
 
 *_For 100 alternatives × 10 criteria on standard hardware_
 

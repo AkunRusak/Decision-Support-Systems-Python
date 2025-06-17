@@ -1,6 +1,5 @@
-# 📊 Multi-Criteria Decision Making (MCDM) Methods
-
-Welcome to this repository! This project presents a curated overview of **18 popular Multi-Criteria Decision Making (MCDM)** methods, widely used in decision analysis, optimization, and ranking problems. These techniques are applied in various domains including engineering, business, healthcare, and information systems.
+# Decision Support System (DSS)
+A decision support system that implements various Multi-Criteria Decision Making (MCDM) methods to assist in complex decision-making processes with multiple criteria and alternatives.
 
 ---
 

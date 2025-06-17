@@ -27,10 +27,10 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/decision-support-system.git
+git clone https://github.com/AkunRusak/Decision-Support-Systems-Python
 
 # Navigate to project directory
-cd decision-support-system
+cd Decision-Support-Systems-Python
 
 # Install dependencies
 pip install -r requirements.txt
@@ -377,10 +377,10 @@ We welcome contributions! Here's how you can help:
 
 <div align="center">
 
-![GitHub Stars](https://img.shields.io/github/stars/yourusername/decision-support-system?style=social)
-![GitHub Forks](https://img.shields.io/github/forks/yourusername/decision-support-system?style=social)
-![GitHub Issues](https://img.shields.io/github/issues/yourusername/decision-support-system)
-![GitHub Pull Requests](https://img.shields.io/github/issues-pr/yourusername/decision-support-system)
+![GitHub Stars](https://img.shields.io/github/stars/AkunRusak/Decision-Support-System-Python?style=social)
+![GitHub Forks](https://img.shields.io/github/forks/AkunRusak/Decision-Support-System-Python?style=social)
+![GitHub Issues](https://img.shields.io/github/issues/AkunRusak/Decision-Support-System-Python)
+![GitHub Pull Requests](https://img.shields.io/github/issues-pr/AkunRusak/Decision-Support-System-Python)
 
 **🎉 Used by 500+ researchers worldwide**  
 **📈 Featured in 50+ academic papers**  
@@ -395,15 +395,14 @@ We welcome contributions! Here's how you can help:
 ### 🌟 Join Our Community
 
 - 💬 **Discord**: [Join our chat](https://discord.gg/mcdm-community)
-- 📧 **Email**: support@dss-mcdm.org
-- 🐦 **Twitter**: [@DSS_MCDM](https://twitter.com/DSS_MCDM)
-- 📘 **LinkedIn**: [DSS Community](https://linkedin.com/company/dss-mcdm)
+- 📧 **Email**: dwicoursework@gmail.com
+
 
 ### ❓ Getting Help
 
 - 📖 Check our [Documentation](docs/)
-- 🔍 Search [Issues](https://github.com/yourusername/decision-support-system/issues)
-- 💡 Ask on [Discussions](https://github.com/yourusername/decision-support-system/discussions)
+- 🔍 Search [Issues](https://github.com/AkunRusak/Decision-Support-System-Python/issues)
+- 💡 Ask on [Discussions](https://github.com/AkunRusak/Decision-Support-System-Python/discussions)
 - 📧 Email us for enterprise support
 
 ---
@@ -437,7 +436,7 @@ Special thanks to:
 
 ### 🌟 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/decision-support-system&type=Date)](https://star-history.com/#yourusername/decision-support-system&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=AkunRusak/Decision-Support-System-Python&type=Date)](https://star-history.com/#AkunRusak/Decision-Support-System-Python&Date)
 
 ---
 

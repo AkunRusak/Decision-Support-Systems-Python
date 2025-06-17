@@ -1,0 +1,12 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+openpyxl
+scipy
+PyQt6
+tabulate
+xlrd
+xlsxwriter
+plotly
